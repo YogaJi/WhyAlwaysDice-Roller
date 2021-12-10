@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DiceRoller" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/yellow</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_blue</item>
+        <item name="colorSecondaryVariant">@color/dark_blue</item>
+        <item name="colorOnSecondary">@color/dark_blue</item>
+        <item name="android:textColor">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <!--  Light mode Style-->
+    <!--  TextView Style-->
+    <style name="myTextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">46sp</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">67dp</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+    <style name="myTextViewStyle.Logo">
+        <item name="android:textSize">46sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_height">76dp</item>
+        <item name="android:layout_width">256dp</item>
+        <item name="android:layout_marginHorizontal">68dp</item>
+    </style>
+
+    <style name="myTextViewStyle.title">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:layout_height">67dp</item>
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <!--  Button Style-->
+    <style name="myButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/dark_1</item>
+        <item name="rippleColor">@color/dark_6</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="myButtonStyle.add">
+        <item name="android:backgroundTint">@color/dark_1</item>
+        <item name="rippleColor">@color/dark_blue</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+    <!--  Edit text Style-->
+    <style name="myEditStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
