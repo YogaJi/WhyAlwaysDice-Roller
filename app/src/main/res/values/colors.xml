@@ -12,6 +12,7 @@
     <color name="green">#06d6a0</color>
     <color name="blue">#118ab2</color>
     <color name="dark_blue">#073b4c</color>
+    <color name="light_smoke">#fafafa</color>
 <!--    dark mode-->
     <color name="dark_1">#343a40</color>
     <color name="dark_2">#495057</color>
@@ -19,4 +20,5 @@
     <color name="dark_4">#adb5bd</color>
     <color name="dark_5">#ced4da</color>
     <color name="dark_6">#dee2e6</color>
+    <color name="main_red">#a61c00</color>
 </resources>

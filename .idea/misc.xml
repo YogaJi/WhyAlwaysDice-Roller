@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/DiceRoller/app/src/main/res/drawable/shape_dice_frame.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/DiceRoller/app/src/main/res/drawable/shape_title_frame.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/DiceRoller/app/src/main/res/drawable/shape_title_frame_dark.xml" value="0.1" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/DiceRoller/app/src/main/res/drawable/shape_wihte_frame.xml" value="0.3765625" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/DiceRoller/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/DiceRoller/app/src/main/res/layout/custom_spinner_dropdown_item.xml" value="0.3138586956521739" />

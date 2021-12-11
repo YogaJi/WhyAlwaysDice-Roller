@@ -12,13 +12,13 @@
         <item name="android:textColor">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+
     </style>
-    <!--  Light mode Style-->
+    <!--  night mode Style-->
     <!--  TextView Style-->
     <style name="myTextViewStyle" parent="Widget.AppCompat.TextView">
         <item name="android:textSize">46sp</item>
-        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textColor">@color/main_red</item>
         <item name="android:layout_width">100dp</item>
         <item name="android:layout_height">67dp</item>
         <item name="android:gravity">center</item>
@@ -33,13 +33,15 @@
     </style>
 
     <style name="myTextViewStyle.title">
-        <item name="android:textSize">28sp</item>
+        <item name="android:textSize">24sp</item>
         <item name="android:textColor">@color/yellow</item>
-        <item name="android:layout_height">67dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:background">@drawable/shape_title_frame_dark</item>
         <item name="android:layout_width">140dp</item>
-        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginStart">24dp</item>
         <item name="android:layout_marginTop">10dp</item>
     </style>
+
     <!--  Button Style-->
     <style name="myButtonStyle" parent="Widget.MaterialComponents.Button">
         <item name="android:backgroundTint">@color/dark_1</item>
